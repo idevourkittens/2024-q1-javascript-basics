@@ -1,3 +1,3 @@
-# My Game is Cool!
+# i be learning that javascript cuh
 
 Make sure you give it a good description here...
