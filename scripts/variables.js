@@ -23,7 +23,7 @@ const MAX_IQ = 300;
 
 //this var = object
 let myPet = {
-    type: "Cat",
+    type: "Scottish Fold",
     name: "Depeche",
     age: 3,
     color: "White",
