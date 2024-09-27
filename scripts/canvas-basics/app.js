@@ -9,11 +9,16 @@ const ctx = canvas.getContext("2d");
 
 import { SquareShape } from "./shapes/square.js";
 
-let s1 = new SquareShape(0, 0, ctx, canvas);
+let s1 = new SquareShape(
+	Math.floor(Math.random() * canvas.width),
+	Math.floor(Math.random() * canvas.height),
+	ctx,
+	canvas
+);
 
 let shapes = [];
 
-for (let i = 0; i < 100; i++) {
+for (let i = 0; i < Math.floor(Math.random() * 100); i++) {
 	shapes.push(new SquareShape(0, 0, ctx, canvas));
 }
 
